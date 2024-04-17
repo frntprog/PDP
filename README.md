@@ -1,78 +1,42 @@
-# Breadit - A Modern Fullstack Reddit Clone
+# Professional development plan report
 
-Built with the Next.js App Router, TypeScript & Tailwind
+For completing professional development plan, it was decided to implement the project which covers main personal professional experience goals.
 
-## Features
+First thing first let’s discuss the project and involved technologies which were used throughout the development. 
+The project is basically a network of communities where people can exchange their ideas, news and discuss different stuff.
 
-- Infinite scrolling for dynamically loading posts
+## To develop such an application the following technologies were used:
+ - Next.js for convenient fullstack development, which is known as a framework based on React.js. 
+ - Next Auth was chosen according to the framework’s ecosystem.
+ - Tailwind CSS for convenient styling
+ - UploadThing for image cashing
+ - Aiven and Prisma for building scalable and manageable database
+ - Redis for vote and post caching 
+ - And more.
+
+## Features 🚀
 - Authentication using NextAuth & Google
 - Custom feed for authenticated users
-- Advanced caching using [Upstash Redis](https://upstash.com/?utm_source=Josh2)
-- Optimistic updates for a great user experience
-- Modern data fetching using React-Query
-- A beautiful and highly functional post editor
+- Data fetching using React-Query
+- A highly functional post editor
 - Image uploads & link previews
-- Full comment functionality with nested replies
+- Full comment functionality
 - ... and much more
 
-## Getting started
+## Short project demo: 
 
-To get started with this project, run
+https://github.com/frntprog/ComunnAI/assets/58951438/66a4eca4-42f0-4263-b537-256d9ba9f483
 
-```bash
-  git clone -b starter-code https://github.com/joschan21/breadit.git
-```
+By utilizing these technologies I significantly improved my comprehension according to the goals.
 
-and copy these .env.example variables into a separate .env file:
+## Goal 1 ✔️
+For the first goal it was used Next.js generally for creating app and complex state management, Editor.js for complex form with zod validation. Additionally there will be attached a Vue.js project with similar achievements.
+## Goal 2 ✔️
+Developing different aspects of the app helped me significantly improve my knowledge regarding asynchronous JavaScript by using async / await feature and understanding how promises are working. That’s why goal 2 might be considered as achieved.
+## Goal 3 ✔️
+Understanding a complete lifecycle of DOM is crucial for web developing. Also it is important to understand such principles as event propagation and population. That’s why I covered some articles and followed it’s principles during implementation. Hence, goal 3 is achieved.
+## Goal 3 ✔️
+placeholder
+## Goal 5 ✔️
+And finally I covered TypeScript by utilizing its best practices, different features as interfaces, classes and types. That’s why this goal is achieved.
 
-```bash
-DATABASE_URL=
-NEXTAUTH_SECRET=
-
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-
-UPLOADTHING_SECRET=
-UPLOADTHING_APP_ID=
-
-REDIS_URL=
-REDIS_SECRET=
-```
-
-if you'd like, you can paste this snippet for quick component creation (optional):
-
-```typescript
-// vscode settings -> user snippets -> typescriptreact.json
-```
-
-```json
-"Typescript React Function Component": {
-    "prefix": "fc",
-    "body": [
-      "import { FC } from 'react'",
-      "",
-      "interface ${TM_FILENAME_BASE}Props {",
-      "  $1",
-      "}",
-      "",
-      "const $TM_FILENAME_BASE: FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
-      "  return <div>$TM_FILENAME_BASE</div>",
-      "}",
-      "",
-      "export default $TM_FILENAME_BASE"
-    ],
-    "description": "Typescript React Function Component"
-  },
-```
-
-and that's all you need to get started!
-
-## Acknowledgements
-
-- [Upstash Redis](https://upstash.com/?utm_source=Josh2) for making this possible
-- [Code with Antonio](https://www.youtube.com/@codewithantonio) for thumbnail design inspiration
-- Shadcn's [Taxonomy respository](https://github.com/shadcn/taxonomy) for showcasing the post editor
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
