@@ -39,7 +39,7 @@ Understanding a complete lifecycle of DOM is crucial for web developing. Also it
 For undertanding web workers and service workers as well as push API I considered following articles:
 - https://medium.com/@nikhinrajkk/the-difference-between-web-workers-and-service-workers-52b52902e94a
 - https://medium.com/naukri-engineering/introduction-to-web-workers-3dc8c7dce0be
-- https://medium.com/@aishwarya.chaturvedi/basic-understanding-of-web-push-notifications-98d310d14b9f
+- https://www.w3.org/TR/push-api/
 ## Goal 5 ✔️
 And finally I covered TypeScript by utilizing its best practices, different features as interfaces, classes and types. That’s why this goal is achieved.
 
