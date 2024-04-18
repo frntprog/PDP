@@ -30,13 +30,16 @@ https://github.com/frntprog/ComunnAI/assets/58951438/66a4eca4-42f0-4263-b537-256
 By utilizing these technologies I significantly improved my comprehension according to the goals.
 
 ## Goal 1 ✔️
-For the first goal it was used Next.js generally for creating app and complex state management, Editor.js for complex form with zod validation. Additionally there will be attached a Vue.js project with similar achievements.
+For the first goal it was used Next.js generally for creating app and complex state management, Editor.js for complex form with zod validation. Additionally there is attached a Vue.js project with similar achievements. [vue pet project - https://github.com/frntprog/WhatsApp]
 ## Goal 2 ✔️
 Developing different aspects of the app helped me significantly improve my knowledge regarding asynchronous JavaScript by using async / await feature and understanding how promises are working. That’s why goal 2 might be considered as achieved.
 ## Goal 3 ✔️
 Understanding a complete lifecycle of DOM is crucial for web developing. Also it is important to understand such principles as event propagation and population. That’s why I covered some articles and followed it’s principles during implementation. Hence, goal 3 is achieved.
-## Goal 3 ✔️
-placeholder
+## Goal 4 ✔️
+For undertanding web workers and service workers as well as push API I considered following articles:
+- https://medium.com/@nikhinrajkk/the-difference-between-web-workers-and-service-workers-52b52902e94a
+- https://medium.com/naukri-engineering/introduction-to-web-workers-3dc8c7dce0be
+- https://medium.com/@aishwarya.chaturvedi/basic-understanding-of-web-push-notifications-98d310d14b9f
 ## Goal 5 ✔️
 And finally I covered TypeScript by utilizing its best practices, different features as interfaces, classes and types. That’s why this goal is achieved.
 
